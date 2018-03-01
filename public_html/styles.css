@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/03/2018, 08:37:52 AM
+    Author     : oym-dev06
+*/
+body{
+    background: azure;
+}
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-image: url("https://www.5dias.com.py/wp-content/uploads/2017/12/econ_paraguay14__01.jpg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+   
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: green;
+    color: #ffffff;
+    
+}
+.menu li:hover {
+    background-color: green;
+}
+.aside {
+    background-color: crimson;
+    padding: 15px;
+    color:azure;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+   
+  
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+}
+
+#submenu1{
+    display: none;
+ 
+}
+
+
+#inicio:hover #submenu1{
+    display: block;
+     
+}
+#menu ul li #submenu1 ul li{
+    color: black
+}
+
+#submenu2{
+    display: none;
+ 
+}
+
+#laciudad:hover #submenu2{
+    display: block;
+    animation: normal;
+     
+}
+#menu ul li #submenu2 ul li{
+    color: black
+}
