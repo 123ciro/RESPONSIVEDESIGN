@@ -58,7 +58,9 @@ body{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .footer {
-    background-color: #0099cc;
+    background-image:  url("http://zoom.ultimahora.com/wp-content/uploads/2010/08/pasisaje1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: #ffffff;
     text-align: center;
     font-size: 16px;
