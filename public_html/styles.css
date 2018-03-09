@@ -23,7 +23,7 @@ body{
     float: left;
     padding: 15px;
 }
-
+/* encabezado*/
 .header {
     background-image: url("https://www.5dias.com.py/wp-content/uploads/2017/12/econ_paraguay14__01.jpg") ;
     background-size: 100%;
@@ -34,34 +34,37 @@ body{
     text-align: center;
    
 }
+/* menus */
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+/* texto de menu*/
 .menu li {
     padding: 8px;
     margin-bottom: 5px;
     background-color: green;
-    color: #ffffff;
+    color: black;
     
 }
 .menu li:hover {
     background-color: green;
 }
+/* costado*/
 .aside {
     background-color: crimson;
     padding: 15px;
-    color:azure;
+    color:black;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
+    
+}/* pie de pagina */
 .footer {
-    background-image:  url("http://zoom.ultimahora.com/wp-content/uploads/2010/08/pasisaje1.jpg");
+    background-color: blue;
     background-repeat: no-repeat;
     background-size: 100%;
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: 16px;
     padding: 5px;
@@ -69,7 +72,7 @@ body{
    
   
 }
-/* For desktop: */
+/* columnas */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -83,8 +86,8 @@ body{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 800px) {
+    /* para celular */
     [class*="col-"] {
         width: 80%;
         text-align: center;
